@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Relief", sans-serif;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #9ed4d2,#3ca798, #074642);
+ }
+  
+  .navegacioninterdos {
+    background-color: black;
+    padding: 60px;
+    margin: 0;
+  }
+  
+  .navegacioninterdos__titulo {
+    font-family: "Bree Serif", serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+  }
+  
+  .navegacioninterdos__linea {
+    width: 50%;
+    border-top: 2px solid white;
+    margin: 10px auto;
+  }
+  
+  .navegacioninterdos__parrafo {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .fondo{
+    color: bisque;
+    text-align: center;
+    position: relative;
+    padding: 50px 10px 10px 10px;
+    width: 100%;
+    min-height: 100px;
+  }
+  .contenidodos__after{
+    background-color: #680b5b;
+    position: relative;
+    padding: 80px;
+  }
+  .contenidodos__after::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+    width:100px;
+    height: 80px;
+    z-index: 2;
+    display: block;
+    background-color: #680b5b;
+    transform: rotate(45deg);
+  }
+  .contenidodos__before{
+    background-color: #14697e;
+    position: relative;
+    padding: 80px;
+  }
+  .contenidodos__before::after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+    width: 100px;
+    height: 80px;
+    z-index: 2;
+    display: block;
+    background-color: #14697e;
+    transform: rotate(45deg);
+  }
+  .contenidodos__botones{
+    background-color: #507e14;
+    position: relative;
+    padding: 80px;
+  }
+  .botones{
+    color: rgb(3, 65, 44);
+    background-color: #0a8b4f;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .piepaginainterdos{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.icontres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+    font-size: 50px;
+}
+i{
+    color: bisque;
+
+}
+i:hover{
+    color: rgb(226, 126, 173);
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}

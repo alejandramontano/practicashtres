@@ -1,0 +1,214 @@
+* {
+
+    box-sizing: border-box;
+    font-family: "Comic Relief", sans-serif;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0;
+    background: linear-gradient(to right, #9ed4d2,#3ca798, #074642);
+ }
+  .navegacioncuatro {
+    background-color: black;
+    padding: 60px;
+    margin: 0;
+  }
+  
+  .navegacioncuatro__titulo {
+    font-family: "Bree Serif", serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+  }
+  
+  .navegacioncuatro__linea {
+    width: 50%;
+    border-top: 2px solid white;
+    margin: 10px auto;
+  }
+  
+  .navegacioncuatro__parrafo {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+.fondo{
+    background-color: rgba(240, 216, 229, 0.5);
+    border: 6px solid black;
+    border-radius: 30px;
+    padding: 90px;
+    margin: 0px 10px 10px 10px;
+    position: relative;
+    top: 10px;
+}
+.cuadro{
+    display: flex;
+    gap: 60px;
+}
+.cuadro__coloruno{
+    width: 25%;
+    height: 125px;
+    background-color: #420530;
+    box-shadow: 0px 10px 0px black;
+}
+.cuadro__colordos{
+    width: 25%;
+    height: 125px;
+    background-color: #250542;
+    box-shadow: -10px 0px 0px black;
+}
+.cuadro__colortres{
+    width: 25%;
+    height: 125px;
+    background-color: #421b05;
+    box-shadow: 0px -10px 0px black;
+    
+}
+.cuadro__colorcuatro{
+    width: 25%;
+    height: 125px;
+    background-color: #05420a;
+    box-shadow: -10px -10px 0px black;
+    
+}
+.cuadro__colorcinco{
+    width: 25%;
+    height: 125px;
+    background-color: #681a10;
+    box-shadow: 10px 10px 0px black;
+  
+}
+.fondouno{
+    background-color: rgba(240, 216, 229, 0.5);
+    border: 6px solid black;
+    border-radius: 30px;
+    padding: 90px;
+    margin: 30px 10px 10px 10px;
+    position: relative;
+    top: 10px;
+}
+.cuadro__imguno{
+    width: 25%;
+    height: 125px;
+    background-color: #e626ac;
+    box-shadow: 0px 10px 15px black;
+}
+.cuadro__imgdos{
+    width: 25%;
+    height: 125px;
+    background-color: #6a19b6;
+    box-shadow: -10px 0px 15px black;
+}
+.cuadro__imgtres{
+    width: 25%;
+    height: 125px;
+    background-color: #c0571a;
+    box-shadow: 0px -10px 15px black;
+    
+}
+.cuadro__imgcuatro{
+    width: 25%;
+    height: 125px;
+    background-color: #1cb629;
+    box-shadow: -10px -10px 15px black;
+    
+}
+.cuadro__imgcinco{
+    width: 25%;
+    height: 125px;
+    background-color: #1bacb1;
+    box-shadow: 10px 10px 15px black;
+  
+}
+img{
+    width: 80%;
+    height: 85px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.fondodos{
+    background-color: rgba(240, 216, 229, 0.5);
+    border: 6px solid black;
+    border-radius: 30px;
+    padding: 90px;
+    margin: 30px 10px 10px 10px;
+    position: relative;
+    top: 10px;
+}
+.imagen{
+    display: flex;
+    gap: 60px;
+}
+.imagen__uno{
+    width: 80%;
+    height: 85px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+}
+.imagen__dos{
+    width: 80%;
+    height: 85px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+}
+.imagen__tres{
+    width: 80%;
+    height: 85px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+}
+.imagen__cuatro{
+    width: 80%;
+    height: 85px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+}
+.imagen__cinco{
+    width: 80%;
+    height: 85px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+}
+.fondo-imagen{
+    width: 25%;
+    height: 125px;
+    background-color: #c9841d;
+}
+.piepaginacuatro{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 40px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+    font-size: 50px;
+}
+i{
+    color: bisque;
+
+}
+i:hover{
+    color: rgb(226, 126, 173);
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}

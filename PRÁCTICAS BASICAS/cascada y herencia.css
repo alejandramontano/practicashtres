@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Relief", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #9ed4d2,#3ca798, #074642);
+}
+
+.navegaciontres {
+  background-color: black;
+  padding: 60px;
+  margin: 0;
+}
+
+.navegaciontres__titulo {
+  font-family: "Bree Serif", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.navegaciontres__linea {
+  width: 50%;
+  border-top: 2px solid white;
+  margin: 10px auto;
+}
+
+.navegaciontres__parrafo {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.herencia{
+  color: black;
+  text-align: center;
+
+}
+
+.herencia__titulo{
+background-color: #581153;
+margin: 16px 0px 0px 0px;
+padding: 28px 6px 16px 8px;
+}
+.herencia__titulo--color{
+  color: bisque;
+}
+.herencia__borde{
+  background-color: rgb(187, 184, 180);
+  border: 6px solid rgb(1, 49, 1);
+  margin: 28px 0px 0px 0px;
+  padding: 28px 6px 16px 8px;   
+}
+.herencia__borde--grosor{
+  font-weight: 700;
+}
+.herencia__fuente{
+  background-color: rgb(238, 183, 112);
+  border: 6px solid rgb(13, 10, 56);
+  margin: 28px 0px 0px 0px;
+  padding: 28px 6px 16px 8px; 
+}
+.herencia__fuente--tipo{
+  font-family: "knewave", system-ui;
+  font-weight: 700;
+}
+.piepaginatres{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 40px;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:200px;
+  font-size: 50px;
+}
+i{
+  color: bisque;
+
+}
+i:hover{
+  color: rgb(226, 126, 173);
+  transition: transform 0.3s;
+  transform: scale(1.2);
+}

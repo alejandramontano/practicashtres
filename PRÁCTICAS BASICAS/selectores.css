@@ -1,0 +1,148 @@
+*{
+    font-family: Comic Relief;
+    
+}
+ body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #9ed4d2,#3ca798, #074642);
+ }
+
+.navegacion{
+
+ background-color: rgb(0, 0, 0);
+ padding: 10px;
+ display: block;
+ height: 190px;
+}
+ .navegacion__titulo{
+ font-family: Bree serif;
+ letter-spacing: 3px;
+ text-align: center;
+ font-size: 50px;
+ color: aliceblue;
+ position: relative;
+ top: -20px;
+}
+
+.navegacion__linea {
+ position: relative;
+ top: -55px;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 50%;
+ border-top: 2px solid rgb(255, 255, 255);
+ margin: 10px 0;
+}
+    
+.navegacion__parrafo{
+ text-align: center;
+ color: rgb(255, 255, 255);
+ position: relative;
+ top: -60px;
+ font-size: 15px;
+    
+     
+}
+.universal{
+    background-color: rgb(49, 1, 1);
+        color: bisque;
+        width: 60%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 225px;
+        padding: 20px 40px 30px;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+}
+.universal__etiqueta{
+    text-align: center;
+}
+h3{
+        text-align: center !important; 
+        background-color: rgb(1, 49, 13);
+        color: bisque;
+        width: 60%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 225px;
+        padding: 20px 40px 30px;
+        font-size: 24px;
+        
+}
+
+    .clase{
+        background-color: rgb(49, 1, 1);
+        color: bisque;
+        width: 60%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 225px;
+        padding: 20px 40px 30px;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .clase__etiqueta{
+        text-align: center;
+    }
+    #etiqueta-id{
+        background-color: rgb(49, 1, 37);
+        color: bisque;
+        width: 60%;
+        height: 50px;
+        position: relative;
+        top: 60px;
+        left: 225px;
+        padding: 20px 40px 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    #etiqueta-id h2{
+        text-align: center;
+    }
+    .atributo-enlace{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    [href*="https://"]{
+        background-color: #3b4607;
+        padding: 30px;
+        position: relative;
+        top: 120px;
+        left: 420px;
+    }
+    a{
+        text-decoration: none;
+        color: bisque;
+    }
+
+    .encabezado{
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        margin-top: 150px;
+    }
+    .icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:200px;
+        font-size: 50px;
+    }
+    i{
+        color: bisque;
+
+    }
+    i:hover{
+        color: rgb(226, 126, 173);
+        transition: transform 0.3s;
+        transform: scale(1.2);
+    }

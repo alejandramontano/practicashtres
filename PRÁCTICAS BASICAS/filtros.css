@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Relief", sans-serif;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #9ed4d2,#3ca798, #074642);
+ }
+  
+  .navegacionsiete {
+    background-color: black;
+    padding: 60px;
+    margin: 0;
+  }
+  
+  .navegacionsiete__titulo {
+    font-family: "Bree Serif", serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+  }
+  
+  .navegacionsiete__linea {
+    width: 50%;
+    border-top: 2px solid white;
+    margin: 10px auto;
+  }
+  
+  .navegacionsiete__parrafo {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .filtro-blur{
+    background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    filter: blur(2px);
+    margin: 10px 30px 30px 30px;
+  }
+  .filtro-brigthness{
+    background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    filter: brightness(150%);
+    margin: 30px;
+  }
+  .filtro-contrast{
+    background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    filter: contrast(300%);
+    margin: 30px;
+  }.filtro-dropshadow{
+    background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    filter: drop-shadow( 10px 10px 20px rgb(255, 255, 255) );
+    margin: 30px;
+  }
+ .filtro-huerrotate{
+  background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 30vh;
+  filter: hue-rotate(180deg);
+  margin: 30px;
+}
+.filtro-invert{
+  background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 30vh;
+  filter: invert(40%);
+  margin: 30px;
+}
+.filtro-saturate{
+  background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 30vh;
+  filter: saturate(100%);
+  margin: 30px;
+}
+.filtro-sepia{
+  background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 30vh;
+  filter: sepia(60%);
+  margin: 30px;
+}
+.filtro-grayscale{
+  background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 30vh;
+  filter: grayscale(60%);
+  margin: 30px;
+}
+.filtro-conjunto{
+  background-image: url(..//EXTRAS/FONDOCINCO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 30vh;
+  filter: grayscale(100%);
+  margin: 30px;
+}
+.piepaginasiete{
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:200px;
+  font-size: 50px;
+}
+i{
+  color: bisque;
+
+}
+i:hover{
+  color: rgb(226, 126, 173);
+  transition: transform 0.3s;
+  transform: scale(1.2);
+}

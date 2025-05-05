@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Relief", sans-serif;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #9ed4d2,#3ca798, #074642);
+ }
+  
+  .navegacionintertres{
+    background-color: black;
+    padding: 60px;
+    margin: 0;
+  }
+  
+  .navegacionintertres__titulo {
+    font-family: "Bree Serif", serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+  }
+  
+  .navegacionintertres__linea {
+    width: 50%;
+    border-top: 2px solid white;
+    margin: 10px auto;
+  }
+  
+  .navegacionintertres__parrafo {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .seccionrelative{
+    background-color: rgba(55, 7, 110, 0.5);
+    padding: 60px;
+  }
+  .seccion{
+    margin-bottom: 0px;
+    position: relative;
+}
+.seccion__relative{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+  .texto{
+  background-color: rgba(43, 3, 48, 0.5);
+  border: 5px solid #30012c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  }
+  .seccion__relative{
+    position: relative;
+  }
+  .seccionsticky{
+    background-color: rgba(110, 7, 105, 0.5);
+    padding: 30px;
+    margin-top: 0px;
+  }
+  .seccion{
+    margin-bottom: 0px;
+    position: sticky;
+}
+.seccion__sticky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+  .textouno{
+  background-color: rgba(3, 48, 23, 0.5);
+  border: 5px solid #013013;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  }
+  .seccion__sticky{
+    position: sticky;
+  }
+  .seccionabsolute{
+    background-color: rgba(79, 110, 7, 0.5);
+    padding: 30px;
+    margin-top: 0px;
+  }
+  .seccion{
+    margin-bottom: 0px;
+    position: sticky;
+}
+.seccion__absolute{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+  .textodos{
+  background-color: rgba(3, 48, 23, 0.5);
+  border: 5px solid #013013;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  }
+  .text__absoluteuno{
+    background-color: #720669;
+    border: 5px solid #2e0130;
+
+  }
+  .text__absolutedos{
+    background-color: #407206;
+    border: 5px solid #013007;
+
+  }
+  .text__absolutetres{
+    background-color: #72061d;
+    border: 5px solid #2e0130;
+
+  }
+  h2,p{
+    color: bisque;
+    text-align: center;
+  }
+  .piepaginaintertres{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.iconcuatro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+    font-size: 50px;
+}
+i{
+    color: bisque;
+
+}
+i:hover{
+    color: rgb(226, 126, 173);
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}

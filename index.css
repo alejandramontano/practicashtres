@@ -1,0 +1,117 @@
+*{
+    font-family: Comic Relief;
+    
+}
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+.header-nav{
+
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px 10px;
+    display: block;
+    height: 150px;
+    
+    
+}
+
+.titulo{
+    font-family: Bree serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    position: relative;
+    top: -20px;
+}
+.linea {
+    position: relative;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    border-top: 2px solid rgb(255, 255, 255);
+    margin: 10px 0;
+  }
+.parrafo{
+ text-align: center;
+ color: rgb(255, 255, 255);
+ position: relative;
+ top: -60px;
+ font-size: 15px;
+
+ 
+}
+.main-principal{
+    margin: 0;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to right, #9ed4d2,#3ca798, #074642);
+}
+.bloque-uno {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    left: -380px;
+}
+.bloque-uno:hover{
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+.bloque-uno a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #FFFDFC;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 17px;
+    width: 300px;
+    border-radius: 30px;
+    
+}
+.bloque-dos {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    left: -380px;
+}
+.bloque-dos:hover{
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+.bloque-dos a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #FFFDFC;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 17px;
+    width: 300px;
+    border-radius: 30px;
+}
+.bloque-img{
+    position: relative;
+    left: 900px;
+    top: 50px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+}
+.encabezado-principal{
+    background-color: rgb(0, 0, 0);
+    padding: 30px ;
+    display: block;
+}
+.encabezado-principal h2,p {
+    color: beige;
+}
+
+    
